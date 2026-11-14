@@ -4,7 +4,7 @@
 
 Precuela original. La noche en que el inventor Elías Varga cruzó solo al mañana, conoció al hombre en que no debía convertirse, y volvió once minutos tarde con una mentira: solo fue el perro.
 
-**Corte:** cinematográfico narrado, ocho capítulos, unos diez minutos, 720p.
+**Corte:** cinematográfico narrado, ocho capítulos, 9 minutos 55 segundos.
 Historia original. No pertenece a ninguna saga con dueño.
 
 ## De qué va
@@ -67,9 +67,14 @@ Cero hora no es el principio del viaje. Es el secreto con el que empieza.
 
 ## Archivo
 
-Gofile no respondió desde la red de publicación (la conexión a sus servidores expira). El corte está en el release del repo:
+El archivo anterior del release (`Cero-Hora.mp4`, 720p) tenía el audio dañado. Los capítulos se pegaron copiando dos AAC que no coincidían: la narración iba a 24 kHz mono y las cartelas a 48 kHz estéreo. El video se veía; el audio hacía fallar al decodificador y YouTube se quedaba procesando. Ese archivo ya no se ofrece.
 
-[Cero-Hora.mp4](https://github.com/inodeman/cero-hora/releases/download/v1/Cero-Hora.mp4)
+El corte para subir es este:
 
-Corte cinematográfico narrado. Duración 9 minutos 55 segundos. 1280×720, 24 fps, narración en español.
+[Cero-Hora-4K.mp4](https://github.com/inodeman/cero-hora/releases/download/v1/Cero-Hora-4K.mp4)
 
+- Duración: 9 minutos 55 segundos. No es un largometraje de hora y media.
+- Imagen: 3840×2160, 24 fps, H.264. Es un escalado del master a 720p, no un rodaje nativo en 4K. YouTube lo vuelve a comprimir al subirlo.
+- Audio: AAC-LC estéreo, 48 kHz, reconstruido capítulo por capítulo desde la narración. El archivo completo decodifica sin errores.
+
+Gofile no respondió desde esta red (la conexión a sus servidores expira).
